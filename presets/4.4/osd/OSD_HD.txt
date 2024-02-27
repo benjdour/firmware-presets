@@ -1,0 +1,54 @@
+#$ TITLE: OSD HD settings
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: HD, full, OSD, GPS
+#$ AUTHOR: BenD FPV
+#$ DESCRIPTION: Setting my OSD for DJI
+
+set osd_vbat_pos = 266
+set osd_rssi_pos = 2657
+set osd_link_quality_pos = 2661
+set osd_tim_2_pos = 3691
+set osd_flymode_pos = 2048
+set osd_throttle_pos = 2435
+set osd_current_pos = 2400
+set osd_mah_drawn_pos = 2370
+set osd_craft_name_pos = 2072
+set osd_power_pos = 224
+set osd_warnings_pos = 14709
+set osd_avg_cell_voltage_pos = 3684
+set osd_battery_usage_pos = 193
+set osd_disarmed_pos = 2358
+set osd_esc_tmp_pos = 1107
+set osd_flip_arrow_pos = 2394
+set osd_core_temp_pos = 3151
+set osd_displayport_device = MSP
+set osd_canvas_width = 52
+set osd_canvas_height = 20
+set vcd_video_system = HD
+
+
+# Setup of GPS options
+#$ OPTION_GROUP BEGIN: GPS options
+
+    # Display GPS infos
+    #$ OPTION BEGIN (UNCHECKED): Display GPS infos
+set osd_gps_sats_pos = 3087
+set osd_gps_speed_pos = 3119
+    #$ OPTION END
+
+    # Display Home point infos
+    #$ OPTION BEGIN (UNCHECKED): Display Home point infos
+set osd_home_dir_pos = 2170
+set osd_home_dist_pos = 2100
+set osd_altitude_pos = 18491
+    #$ OPTION END
+
+    # Display Coordinates infos
+    #$ OPTION BEGIN (UNCHECKED): Display Coordinates infos
+set osd_gps_lon_pos = 2240
+set osd_gps_lat_pos = 2208
+    #$ OPTION END
+
+#$ OPTION_GROUP END
